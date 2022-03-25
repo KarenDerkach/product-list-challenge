@@ -1,0 +1,26 @@
+.c-footer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3vh;
+    bottom: 0;
+    text-align: center;
+}
+
+.f-link{
+    text-decoration: none;
+    color: tomato;
+
+}
+
+@media screen and  (max-width: 480px){
+.c-footer{
+    /* margin-top: 10vh; */
+
+ 
+}
+
+
+}

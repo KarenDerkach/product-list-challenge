@@ -1,0 +1,72 @@
+.c-contTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(183, 185, 34);
+}
+
+.c-title {
+  color: azure;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 2vw;
+}
+
+.c-btnAdd {
+  font-weight: bold;
+  color: white;
+}
+
+.c-container {
+  border: solid black 1px;
+  margin: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.c-labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid orange;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0.5px;
+  padding: 1px;
+  color: orange;
+}
+
+p {
+  margin: 0.5px;
+}
+.c-bntDelete {
+  height: 30px;
+  width: 30px;
+  margin-left: 1vw;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .c-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .c-labels {
+    justify-content: space-around;
+  }
+}

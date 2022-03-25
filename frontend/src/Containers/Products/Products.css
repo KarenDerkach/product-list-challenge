@@ -1,0 +1,46 @@
+.p-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p-title {
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(183, 185, 34);
+  color: azure;
+  align-items: center;
+  justify-content: center;
+}
+th {
+  text-align: center;
+}
+.p-contEtiq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.p-etiqueta {
+  display: flex;
+  background-color: rgb(183, 185, 34);
+  color: azure;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.4vh;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #151608;
+}
+
+.p-contBtn {
+  text-align: center;
+}
+
+.p-btn {
+  width: 50px;
+  height: 40px;
+}
